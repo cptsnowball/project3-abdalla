@@ -1,0 +1,164 @@
+
+body{
+    font-size: 2vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.city-name{
+    color: green;
+    text-decoration: underline;
+    font-weight: lighter;
+    font-size: 125%;
+}
+#contentWrap{
+    padding: 2rem;
+}
+.details{
+    font-size: 80%;
+}
+.fixed-top {
+    box-shadow: 0 10px 4px 0 rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: darkblue;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    text-align: center;
+}
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 60%;
+    color: #f1f1f1;
+    background-color: darkblue;
+    text-align: center;
+  }
+.img-text{
+    background-image: url(./assets/images/canoe.jpg);
+    background-position: center;
+    background-size: 100%;
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-right: 20%;
+    max-width: 1200px;
+    padding-top: 4.5em;
+    padding-bottom: 3em;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    font-size: 175%;
+    -webkit-text-stroke: 1.5px black;
+    display: block;
+}
+#info{
+    margin-left: 12%;
+    margin-right: 12%;
+    max-width: 1200px;
+    display: block;
+    text-align: center;
+}
+.loading{
+    text-align: center;
+}
+#loginInfo{
+    margin-top: 12%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.login-text{
+    font-size: 75%;
+}
+.logo{
+    margin-top: .1em;
+    width: 5vw;
+    height: 5vw;
+    float: right;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+.nav-bar{
+    display: none;
+    max-width: 11%;
+    height: 100%; 
+    width: 250px; 
+    position: fixed; 
+    z-index: 8888; 
+    top: 0; 
+    left: 0;
+    background-color: darkblue; 
+    overflow-x: hidden; 
+    padding-top: 6%;
+}
+.nav-bar a{
+    font-size: 80%;
+    text-align: center;
+    text-decoration: none;
+    color: #f1f1f1;
+    display: block;
+}
+.nav-bar a:hover {
+    color: #f1f1f1;
+}
+.nav-btn{
+    float: left;;
+    padding: 0.25rem 0.75rem;
+    font-size: 100%;
+    line-height: 1;
+    border-radius: 0.25rem;
+    padding-left: 1em;
+}
+.nav-icon{
+    background-image: url(./assets/images/hamburger.png);
+    display: inline-block;
+    width: 1.75em;
+    height: 1.75em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    padding-top: 0.5em;
+}
+.nav-icon hover{
+    text-decoration: none;
+}
+.oops{
+    padding-top: 8rem;
+    text-align: center;
+    font-size: 130%;
+}
+
+.oops-pic{
+    padding-bottom: 25rem;
+    background-image: url(./assets/images/howd-you-do-5cb17b.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+p{
+    font-size: 80%;
+}
+.page-top{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 100%;
+    display: inline-block;
+}
+#pageContainer{
+    position: relative;
+    min-height: 100vh;  
+}
+.results{
+    padding-top: 5rem;
+}
+.upcoming{
+    font-size: 175%;
+    font-weight: bold;
+}
+.validation{
+    color: red;
+}
